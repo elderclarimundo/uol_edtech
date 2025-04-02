@@ -256,6 +256,8 @@ CALCULATE(
 
 </details>
 
+---
+
 ### 🎯 Missão
 
 > Considerando essas bases de dados (enviadas em CSV), crie uma visualização que possibilite testar nossa hipótese requisitada por nosso cliente. Apresente para o time de Clientes seus insights e sugestões sobre qual deveria ser a estratégia da área com base em suas conclusões.
@@ -265,17 +267,6 @@ CALCULATE(
 ### ✅ Hipótese
 
 **Quanto maior o tempo de resposta dos tickets, pior é a avaliação dada pelo usuário.**
-
----
-
-### 📊 Visualização Criada
-
-O dashboard em Power BI foi projetado para validar essa hipótese, com as seguintes visualizações:
-
-- **Gráfico de colunas empilhadas 100%** mostrando a distribuição de **% de satisfação x insatisfação por faixas de tempo de resposta** (`0-24h`, `24-48h`, ..., `120h+`).
-- **Gráfico de rosca** apresentando o percentual total de avaliações positivas (92,2%) e negativas (7,8%).
-- **Gráfico de barras por período do dia (manhã, tarde, noite)** com a quantidade de avaliações positivas e negativas feitas em cada turno.
-- **KPIs com totais** de tickets avaliados, positivos, negativos e o TME (8h32min).
 
 ---
 
